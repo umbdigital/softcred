@@ -18,21 +18,6 @@
 
                     <div class="col-md-10">
 
-                        <?php 
-
-                            if (themesflat_choose_opt('show_addtocard_header') == 1) {
-
-                                if(is_plugin_active('woocommerce/woocommerce.php')) {
-
-                                    themesflat_cart_count();
-
-                                }
-
-                            }                    
-
-                        ?>
-
-
 
                         <?php if ( themesflat_choose_opt('header_searchbox') == 1 ) :?>                        
 
