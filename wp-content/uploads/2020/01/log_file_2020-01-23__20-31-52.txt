@@ -1,0 +1,111 @@
+
+---Downloaded files---
+The import files for: Import Demo Data were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://softcred.proposta.digital
+Data file = /home/umbernar/softcred.proposta.digital/wp-content/uploads/2020/01/demo-content-import-file_2020-01-23__20-31-52.xml
+Widget file = /home/umbernar/softcred.proposta.digital/wp-content/uploads/2020/01/demo-widgets-import-file_2020-01-23__20-31-52.json
+Customizer file = /home/umbernar/softcred.proposta.digital/wp-content/uploads/2020/01/demo-customizer-import-file_2020-01-23__20-31-52.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[ERROR] Failed to import "contact-us" (Mídia)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "contact-us" (Mídia)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "contact-us" (Mídia)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "contact-us" (Mídia)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "contact-us" (Mídia)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "contact-us" (Mídia)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "contact-us" (Mídia)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "contact-us" (Mídia)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "contact-us" (Mídia)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "contact-us" (Mídia)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "contact-us" (Mídia)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "contact-us" (Mídia)
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Themesflat - Categories - No Title - Imported
+Themesflat - Testimonial - No Title - Imported
+HTML personalizado - No Title - Imported
+Themesflat - Contact Us - How can we help you? - Imported
+
+Woocommerce Sidebar : 
+
+Product Categories - No Title - Imported
+Filter Products by Price - SHOP BY - Imported
+Imagem - No Title - Imported
+Themesflat Latest Products - LATEST PRODUCTS - Imported
+
+Footer Widget 1 : 
+
+Imagem - No Title - Imported
+Texto - No Title - Imported
+
+Footer Widget 2 : 
+
+Menu - Our Links - Imported
+
+Footer Widget 3 : 
+
+Posts recentes - Recent News - Imported
+
+Footer Widget 4 : 
+
+Mailchimp Sign-Up Form - Newsletter - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

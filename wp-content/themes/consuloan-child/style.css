@@ -1,0 +1,270 @@
+/*
+Theme Name:     Consuloan Child
+Description:    Child theme for the Consuloan
+Author:         Themesflat
+Template:       consuloan
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar-thumb:vertical {
+    background-color: #292c39;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: #fff;
+    height: 3px!important;
+}
+
+::-webkit-scrollbar {
+    height: 3px;
+    width: 7px;
+    background-color: #fff;
+}
+
+/*
+ * 
+ * Font Face
+ * 
+ */
+
+@font-face {
+    font-family: Bloomsburg;
+    src: url("Bloomsburg.otf") format("opentype");
+}
+
+/*
+ *	Home page SoftCred 
+ * 
+ */
+
+.titulo-flex-reverse {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.titulo-flex-reverse p {
+	margin-bottom: 10px;
+}
+
+.sobre-home .themesflat_iconbox.style3:before {
+	background: none;
+}
+
+.sobre-home .themesflat_iconbox {
+	background-size: 100% auto !important;
+	padding-top: 40px !important;
+	padding-bottom: 30px !important;
+	padding-left: 65px !important;
+	padding-right: 65px !important;
+}
+.sobre-home .themesflat_iconbox .iconbox-icon {
+	margin-bottom: 20px;
+}
+
+.sobre-home .themesflat_iconbox:hover .iconbox-icon .icon img {
+	filter: brightness(0) invert(1);
+}
+
+.sobre-home .themesflat_iconbox.transparent .iconbox-content p {
+	font-size: 12px;
+	color: #c8c9c9;
+	line-height: 15px;
+	font-style: normal;
+	font-family: Montserrat, sans-serif;
+	min-height: 100px;
+}
+
+.sobre-home .themesflat_iconbox .iconbox-content .title {
+	margin-bottom: 20px;
+}
+
+.sobre-softcred-home .wpb_text_column p,
+.comentarios-home .testimonial-sliders.style2 blockquote {
+	font-size: 12px;
+	color: #c8c9c9;
+	line-height: 15px;
+	font-style: normal;
+	font-family: Montserrat, sans-serif;
+}
+
+.solucoes-home h2 {
+	max-width: 800px;
+	margin: 0 auto;
+	display: block;
+	line-height: 60px !important;
+}
+
+.comentarios-home .testimonial-sliders.style2 blockquote {
+	border-radius: 50px 0 30px 0;
+	background: #fff;
+}
+
+.comentarios-home .testimonial-sliders.style2 .testimonial-slider .owl-stage .active:nth-of-type(even) blockquote,
+.comentarios-home .testimonial-sliders.style2 .item:hover blockquote {
+	background-color: #66aa37;
+	color: #fff;
+}
+
+
+.comentarios-home .testimonial-sliders.style2 .testimonial-slider .owl-stage .active:nth-of-type(even) blockquote:after, .comentarios-home .testimonial-sliders.style2 .item:hover blockquote::after {
+	border-top-color: #66aa37 !important;
+}
+
+.comentarios-home .testimonial-sliders.style2 .testimonial-author .author-name a {
+	color: #3e3e3e;
+	font-size: 21px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.comentarios-home .testimonial-sliders .author-info p {
+	font-size: 15px;
+	color: #b0b0b0;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.blog-home .blog-shortcode.blog-grid article .entry-meta.meta-below .post-date a {
+	font-size: 13px;
+	color: #949494;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: .8px;
+}
+
+.blog-home article .entry-title a {
+	color: #2e2d2d;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.sobre-home .themesflat_iconbox .iconbox-content .title,
+.titulo-flex-reverse p,
+.titulo-flex-reverse .title,
+.solucoes-home h2,
+.comentarios-home .testimonial-sliders.style2 blockquote,
+.comentarios-home .testimonial-sliders.style2 .testimonial-author .author-name a,
+.comentarios-home .testimonial-sliders .author-info p,
+.blog-home article .entry-meta ul li a,
+.blog-home article .entry-title a,
+.title-section .title {
+	font-family: Bloomsburg;
+	letter-spacing: 1px;
+}
+
+#header.header-style5 #mainnav > ul > li > a {
+	text-transform: uppercase;
+}
+
+#header.header-style5 .wrap-header-content-header-styte5 > ul > li > .text strong {
+	color: #a0a0a0 !important;
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+.footer-widgets figure figcaption {
+	display: none;
+}
+
+.footer {
+    background-color: #2e2e2e !important;
+}
+
+.footer-widgets .widget.widget_nav_menu ul li {
+	width: 100%;
+}
+
+.footer-widgets .widget.widget_nav_menu ul li a {
+	padding-left: 0;
+}
+
+.footer-widgets .widget.widget_nav_menu ul li a:before {
+	display: none;
+}
+
+footer a,
+footer h4,
+footer p {
+	font-family: Bloomsburg;
+	letter-spacing: 1px;
+	color: #fff !important;
+}
+
+footer .themesflat-socials {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+
+footer .themesflat-socials li a {
+	width: auto;
+	height: auto;
+	margin: 0;
+	margin-right: 15px;
+}
+
+footer .themesflat-socials li a:hover {
+	background: transparent;
+}
+
+footer .themesflat-socials li a i {
+	font-size: 20px;
+	color: #fff;
+}
+
+#header.header-style5 .wrap-header-content-header-styte5 > ul > li .border-icon i {
+	color: #6bad3d !important;
+}
+
+#header.header-style5 .button-header {
+	border-radius: 5px 25px 5px 25px;
+	background-image: linear-gradient(to right, #6bad3d, #65a9de) !important;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+#mainnav-mobi ul > li > a {
+	text-transform: uppercase;
+}
+
+.sobre-softcred-home .botao-conheca a {
+	background-color: #fff !important;
+	color: #6dade0 !important;
+	border: 1px solid #6dade0 !important;
+	border-radius: 5px 15px 5px 15px;
+	font-family: Bloomsburg;
+	padding-left: 50px;
+	padding-right: 50px;
+	letter-spacing: 1px;
+}
+
+.sobre-softcred-home .botao-conheca a:hover {
+	background-color: #6dade0 !important;
+	color: #fff !important;
+}
+
+@media only screen and (max-width: 480px) {
+	header > .nav > .container-fluid > .container > .header-wrap {
+		display: inline-flex;
+	}
+	.header-style5 .header-wrap .logo img {
+		width: auto;
+	}
+	.solucoes-home h2 {
+		font-size: 20px !important;
+		line-height: 28px !important;
+	}
+	.footer-widgets .widget .widget-title {
+		margin-top: 50px !important;
+	}
+	footer ul {
+		display: inline-table;
+	}
+}

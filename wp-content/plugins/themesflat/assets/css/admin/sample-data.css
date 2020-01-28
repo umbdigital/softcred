@@ -1,0 +1,70 @@
+/* please wait*/
+.loader {
+    background: url(../../img/loading.gif);
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: -3px;
+}
+
+.hide_load {
+    display: none;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+i.import_alert {
+    font-size: 38px;
+    color: #F0AD4E;
+    display: inline-block;
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+/* Install Sample Data */
+#sample-data-installer .screenshot {
+    max-width: 350px;
+    max-height: 265px;
+}
+
+#sample-data-installer .screenshot img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#sample-data-installer .screenshot .wrap-install-data {
+    background-color: #23282d;
+    padding: 10px 0;
+    text-align: right;
+}
+
+#sample-data-installer .screenshot .wrap-install-data .theme-name {
+    color: #fff;
+    display: inline-block;
+    float: left;
+    line-height: 28px;
+    margin-left: 15px;
+}
+
+#sample-data-installer .screenshot .wrap-install-data .button-primary {
+    border-radius: 0;
+    background-color: #18ba60;
+    border-color: #18ba60;
+    text-shadow: none;
+    box-shadow: none;
+    margin-right: 15px;
+}
+
+#sample-data-installer .screenshot .wrap-install-data .button-primary:hover {
+    background-color: #0073aa;
+    border-color: #0073aa;
+}
+
+#sample-data-installer .title-installer {
+    margin-left: 10px;
+}
