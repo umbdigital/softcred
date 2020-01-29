@@ -18,6 +18,9 @@
 
                     <div class="col-md-10">
 
+                      
+
+
 
                         <?php if ( themesflat_choose_opt('header_searchbox') == 1 ) :?>                        
 
