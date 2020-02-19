@@ -185,7 +185,8 @@ Template:       consuloan
 	padding-left: 0;
 }
 
-.footer-widgets .widget.widget_nav_menu ul li a:before {
+.footer-widgets .widget.widget_nav_menu ul li a:before,
+.button-header:before {
 	display: none;
 }
 
@@ -236,6 +237,10 @@ footer .themesflat-socials li a i {
 
 #logo.logo {
 	padding-top: 20px;
+}
+
+.logo img {
+	position: absolute;
 }
 
 .sobre-softcred-home .botao-conheca a {
