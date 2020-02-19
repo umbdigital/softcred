@@ -276,4 +276,10 @@ footer .themesflat-socials li a i {
 	footer ul {
 		display: inline-table;
 	}
+	.logo img {
+		position: inherit;
+	}
+	header > .nav > .container-fluid > .container > .header-wrap > .col-md-10 {
+		display: inline-flex;
+	}
 }
