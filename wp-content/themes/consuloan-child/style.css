@@ -41,10 +41,6 @@ Template:       consuloan
  * 
  */
 
-.logo img{
-	width: 166px!important;
-}
-
 .titulo-flex-reverse {
 	display: flex;
 	flex-direction: column-reverse;
@@ -245,6 +241,7 @@ footer .themesflat-socials li a i {
 
 .logo img {
 	position: absolute;
+	height: 59px!important;
 }
 
 .sobre-softcred-home .botao-conheca a {
