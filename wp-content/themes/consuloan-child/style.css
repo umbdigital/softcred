@@ -263,6 +263,15 @@ footer .themesflat-socials li a i {
 	color: #fff !important;
 }
 
+#mainnav-mobi ul > li > a,
+#header #mainnav ul.sub-menu > li.current-menu-item > a {
+	color: #0f3661;
+}
+
+#header #mainnav ul.sub-menu > li.current-menu-item > a:hover {
+	color: #fff;
+}
+
 @media only screen and (max-width: 480px) {
 	header > .nav > .container-fluid > .container > .header-wrap {
 		display: inline-flex;
@@ -285,5 +294,17 @@ footer .themesflat-socials li a i {
 	}
 	header > .nav > .container-fluid > .container > .header-wrap > .col-md-10 {
 		display: inline-flex;
+	}
+	.themesflat-boxed .header-style5 {
+		position: sticky;
+		top: 0;
+		z-index: 9;
+	}
+	.header.header-sticky {
+		position: sticky;
+		-webkit-animation-name: none;
+		-webkit-animation-duration: inherit; 
+		animation-name: none;
+		animation-duration: inherit;
 	}
 }
