@@ -41,6 +41,10 @@ Template:       consuloan
  * 
  */
 
+.logo img{
+	width: 166px!important;
+}
+
 .titulo-flex-reverse {
 	display: flex;
 	flex-direction: column-reverse;
