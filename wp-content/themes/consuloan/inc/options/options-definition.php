@@ -296,9 +296,9 @@ function themesflat_customize_default($key) {
 
 		'top_content' => 'Welcome to Financial Services Consultant!',
 
-		'button_topbar' => '<a href="#" class="button-topbar">Área do cliente</a>',
+		'button_topbar' => '<a href="https://iwbarecebiveis.wba.com.br/iwba/pages/index.jsf" class="button-topbar">Área do cliente</a>',
 
-		'button_menu' => '<a href="#" class="button-menu">Área do cliente</a>',
+		'button_menu' => '<a href="https://iwbarecebiveis.wba.com.br/iwba/pages/index.jsf" class="button-menu">Área do cliente</a>',
 
 		'show_pagination_portfolio' => 0,
 
@@ -312,7 +312,7 @@ function themesflat_customize_default($key) {
 
 		'enable_language_switch' => 0,
 
-		'header_button_text' => '<a href="#" class="button-header">Área do cliente</a>',
+		'header_button_text' => '<a href="https://iwbarecebiveis.wba.com.br/iwba/pages/index.jsf" class="button-header">Área do cliente</a>',
 
 		'show_social_share'	=> 0,
 
