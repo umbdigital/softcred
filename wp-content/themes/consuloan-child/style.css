@@ -7,7 +7,6 @@ Template:       consuloan
 (optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
 */
 
-
 /* Scrollbar */
 
 ::-webkit-scrollbar-thumb:vertical {
@@ -75,11 +74,12 @@ Template:       consuloan
 	line-height: 15px;
 	font-style: normal;
 	font-family: Montserrat, sans-serif;
-	min-height: 100px;
+	min-height: 90px;
 }
 
 .sobre-home .themesflat_iconbox .iconbox-content .title {
 	margin-bottom: 20px;
+	min-height: 45px;
 }
 
 .sobre-softcred-home .wpb_text_column p,
@@ -154,7 +154,7 @@ Template:       consuloan
 .blog-home article .entry-title a,
 .title-section .title {
 	font-family: Bloomsburg;
-	letter-spacing: 1px;
+	letter-spacing: 1.2px !important;
 }
 
 #header.header-style5 #mainnav > ul > li > a {
@@ -304,4 +304,9 @@ footer .themesflat-socials li a i {
 		animation-name: none;
 		animation-duration: inherit;
 	}
+}
+
+.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-title>a {
+	font-family: Bloomsburg;
+	letter-spacing: 1px;
 }
